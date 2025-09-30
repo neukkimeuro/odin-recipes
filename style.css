@@ -7,16 +7,16 @@ body {
     background-color: lemonchiffon;
     display: block;
     width: 40%;
-    padding: 50px 0;
+    padding: 50px;
     margin: 100px auto;
     border: 5px solid tomato;
 }
 
-.outline {
+/*.outline {
     padding: 2px;
     margin: 0 30%;
     box-shadow: inset 0 15px 0 0 tomato;
-}
+}*/
 
 .title {
     color: tomato;
@@ -24,10 +24,19 @@ body {
 }
 
 ul {
-    margin-left: -38px;
+/*    margin-left: -38px;*/
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+
 }
 
 a {
     color: tomato;
+}
+
+#image {
+    width: 450px;
+    display:block;
+    margin: 0 auto;
 }
